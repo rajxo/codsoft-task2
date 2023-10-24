@@ -1,0 +1,219 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li 
+{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: rgb(153,153,226);
+}
+
+.left
+{
+    font-size: 1.4rem;
+    color: crimson;
+}
+
+.first
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 105px 0px;
+    align-items: center;
+}
+.first> div
+{
+    width: 30%;
+}
+
+.leftSec
+{
+    
+    font-size: 2.5rem;
+    margin: 70px 0px;
+
+
+}
+.leftSec .buttons
+{
+    
+    padding: 50px 0;
+
+}
+.leftSec .btn
+{
+    
+   padding: 12px;
+   background: #1e2167;
+   color: white;
+   border: 2px solid white;
+   border-radius: 6px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.rightSec img
+{
+   width: 80%;
+}
+.purple
+{
+    color: rgb(107,107,228);
+}
+
+#element
+{
+    color:  rgb(107,107,228);
+}
+
+.second
+{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.t-gray
+{
+    color: gray;
+}
+
+.experience
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 68px;
+}
+.e1
+{
+    margin-left: 45px;
+   
+}
+#e11
+{
+    color: red;
+    font-size: 25px;
+}
+.e1 p{
+    margin-top: 20px;
+}
+.e2
+{
+    margin-left: 32px;
+}
+.e2 p{
+    margin-top: 20px;
+}
+#e22
+{
+    color: red;  
+    font-size: 25px;
+}
+.e3
+{
+
+    margin-left: 54px;
+}
+.e3 p{
+    margin-top: 20px;
+}
+#e33
+{   
+    color: red;
+    font-size: 25px;
+}
+main hr{
+    border: 0;
+    background-color:rgb(107,107,228) ;
+    height: 0.2px;
+    margin: 60px 83px;
+}
+
+.second h1{
+   font-size: 1.9rem;
+  
+}
+.social
+{
+    max-width: 30vw;
+    height: 30vh;
+    margin-left: 148px;
+    margin-top: -40px;
+}
+.social p h3
+{
+    margin-left: 45px;
+    margin-top: 8px;
+}
+.media
+{
+   display:flex;
+    margin-top: 65px;
+    margin-bottom: -20px;
+}
+#insta
+{
+    margin-left: 48px;
+}
+
+#twitter
+{
+    margin-left: 48px;
+}
+
+.footer
+{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+
+
+footer{
+    background-color: #0e0e1a;
+    color: gray;
+    padding: 12px 0;
+    
+}
+
+.footer>div
+{
+    width: 223px;
+}
+
+footer .textcentre
+{
+    text-align: center;
+    color: grey;
+}
